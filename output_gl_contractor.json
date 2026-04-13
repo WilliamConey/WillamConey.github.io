@@ -1,0 +1,41 @@
+{
+  "insured": "Apex Roofing & Construction",
+  "line_of_business": "General Liability",
+  "exposure": {
+    "units": 2400,
+    "type": "Payroll ($000s)"
+  },
+  "premium_steps": {
+    "base_premium": 30000.0,
+    "class_adjusted": 43500.0,
+    "territory_adjusted": 45675.0,
+    "limit_adjusted": 55723.5,
+    "deductible_adjusted": 47364.97,
+    "schedule_adjusted": 52101.47,
+    "experience_adjusted": 76651.04,
+    "final_premium": 76651.04
+  },
+  "experience_rating": {
+    "actual_losses_developed": 253480.0,
+    "expected_losses": 130500.0,
+    "loss_ratio": 1.9424,
+    "credibility_weight": 0.5,
+    "experience_mod": 1.4711877394636015
+  },
+  "frequency_severity": {
+    "avg_frequency_per_unit": 0.0033,
+    "avg_severity_per_claim": 9316.67,
+    "pure_premium_per_unit": 31.06
+  },
+  "audit_trail": [
+    "Step 1 | Base Premium: $12.50 \u00d7 2400 Payroll ($000s) = $30,000.00",
+    "Step 2 | Class Factor (GL-02 - Contractor - General Building): \u00d7 1.45 = $43,500.00",
+    "Step 3 | Territory Factor (TX-03 - Austin / San Antonio Metro): \u00d7 1.05 = $45,675.00",
+    "Step 4 | Coverage Limit Factor: \u00d7 1.22 = $55,723.50",
+    "Step 5 | Deductible Credit (15.0% credit): \u00d7 0.85 = $47,364.97",
+    "Step 6 | Schedule Modification (10.0% debit): \u00d7 1.10 = $52,101.47",
+    "Step 7 | Experience Modification (EMod 1.4712 - surcharge, credibility 50%): \u00d7 1.4712 = $76,651.04",
+    "Step 8 | FINAL PREMIUM: $76,651.04",
+    "Freq/Sev | Frequency: 0.0033 claims/unit | Severity: $9,316.67/claim | Pure Premium: $31.06/unit"
+  ]
+}

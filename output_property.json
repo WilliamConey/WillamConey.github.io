@@ -1,0 +1,41 @@
+{
+  "insured": "Meridian Office Partners",
+  "line_of_business": "Commercial Property",
+  "exposure": {
+    "units": 145000,
+    "type": "Sq Ft"
+  },
+  "premium_steps": {
+    "base_premium": 55100.0,
+    "class_adjusted": 50692.0,
+    "territory_adjusted": 56775.04,
+    "limit_adjusted": 59613.79,
+    "deductible_adjusted": 54844.69,
+    "schedule_adjusted": 50457.11,
+    "experience_adjusted": 50457.11,
+    "final_premium": 50457.11
+  },
+  "experience_rating": {
+    "actual_losses_developed": 21460.0,
+    "expected_losses": 152076.0,
+    "loss_ratio": 0.1411,
+    "credibility_weight": 0.0,
+    "experience_mod": 1.0
+  },
+  "frequency_severity": {
+    "avg_frequency_per_unit": 0.0,
+    "avg_severity_per_claim": 6833.33,
+    "pure_premium_per_unit": 0.05
+  },
+  "audit_trail": [
+    "Step 1 | Base Premium: $0.38 \u00d7 145000 Sq Ft = $55,100.00",
+    "Step 2 | Class Factor (PR-02 - Masonry Construction - Commercial): \u00d7 0.92 = $50,692.00",
+    "Step 3 | Territory Factor (TX-01 - Dallas / Fort Worth Metro): \u00d7 1.12 = $56,775.04",
+    "Step 4 | Coverage Limit Factor: \u00d7 1.05 = $59,613.79",
+    "Step 5 | Deductible Credit (8.0% credit): \u00d7 0.92 = $54,844.69",
+    "Step 6 | Schedule Modification (8.0% credit): \u00d7 0.92 = $50,457.11",
+    "Step 7 | Experience Modification (EMod 1.0000 - neutral, credibility 0%): \u00d7 1.0000 = $50,457.11",
+    "Step 8 | FINAL PREMIUM: $50,457.11",
+    "Freq/Sev | Frequency: 0.0000 claims/unit | Severity: $6,833.33/claim | Pure Premium: $0.05/unit"
+  ]
+}

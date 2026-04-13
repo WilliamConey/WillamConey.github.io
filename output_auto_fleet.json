@@ -1,0 +1,41 @@
+{
+  "insured": "Lone Star Logistics LLC",
+  "line_of_business": "Commercial Auto",
+  "exposure": {
+    "units": 18,
+    "type": "Vehicles"
+  },
+  "premium_steps": {
+    "base_premium": 33300,
+    "class_adjusted": 40626.0,
+    "territory_adjusted": 45501.12,
+    "limit_adjusted": 53691.32,
+    "deductible_adjusted": 48322.19,
+    "schedule_adjusted": 45906.08,
+    "experience_adjusted": 43589.87,
+    "final_premium": 43589.87
+  },
+  "experience_rating": {
+    "actual_losses_developed": 101380.0,
+    "expected_losses": 121878.0,
+    "loss_ratio": 0.8318,
+    "credibility_weight": 0.3,
+    "experience_mod": 0.9495446265938069
+  },
+  "frequency_severity": {
+    "avg_frequency_per_unit": 0.2407,
+    "avg_severity_per_claim": 7115.38,
+    "pure_premium_per_unit": 1712.96
+  },
+  "audit_trail": [
+    "Step 1 | Base Premium: $1850.00 \u00d7 18 Vehicles = $33,300.00",
+    "Step 2 | Class Factor (CA-05 - Fleet Auto - Mixed Use): \u00d7 1.22 = $40,626.00",
+    "Step 3 | Territory Factor (TX-01 - Dallas / Fort Worth Metro): \u00d7 1.12 = $45,501.12",
+    "Step 4 | Coverage Limit Factor: \u00d7 1.18 = $53,691.32",
+    "Step 5 | Deductible Credit (10.0% credit): \u00d7 0.90 = $48,322.19",
+    "Step 6 | Schedule Modification (5.0% credit): \u00d7 0.95 = $45,906.08",
+    "Step 7 | Experience Modification (EMod 0.9495 - credit, credibility 30%): \u00d7 0.9495 = $43,589.87",
+    "Step 8 | FINAL PREMIUM: $43,589.87",
+    "Freq/Sev | Frequency: 0.2407 claims/unit | Severity: $7,115.38/claim | Pure Premium: $1,712.96/unit"
+  ]
+}
